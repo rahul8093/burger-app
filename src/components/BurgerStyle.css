@@ -1,0 +1,109 @@
+.burgerIngredients{
+    height: 290px;
+    width: 100%;
+    overflow: auto;
+}
+.burgerIngredients p{
+    text-align: center;
+}
+.topSide{
+    border-bottom: 50px solid #555;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	margin: auto;
+    margin-bottom: 5px;
+    background-size: 300px;
+    width: 50%;
+    display: table;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bottomSide{
+    border-top: 50px solid #555;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	margin: auto;
+    background-size: 300px;
+    width: 50%;
+    display: table;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.paneerSide{
+   
+ background-color: #fccfcf;
+  margin: auto;
+   margin-bottom: 5px;
+    height: 18px;
+    width: 50%;
+    
+    
+}
+.tomatoSide{
+    background-color: #ff0000;
+    margin: auto;
+     margin-bottom: 5px;
+      height: 25px;
+      width: 70%;
+      border-radius: 2rem;
+    display: table;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cheeseSide{
+    background-color: #fff703;
+  margin: auto;
+   margin-bottom: 5px;
+    height: 10px;
+    width: 50%;
+    border-radius: 2rem;
+    display: table;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.alootikaSide{
+    background-color: #3f1e1ef4;
+    margin: auto;
+     margin-bottom: 5px;
+      height: 45px;
+      width: 50%;
+      border-radius: 2rem;
+    display: table;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ingredientsBlock{
+    background-color: #cc7673;
+    margin: 30px auto 0;
+    display: table;
+    max-width: 200px;
+    width: 100%;
+    border-radius: 3px;
+    padding: 20px;
+    text-align: center;
+}
+.ingredientsBlock p{
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.ingrBtns{
+    margin: 0 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.ingrBtn{
+    border: 0;
+    background-color: #442500;
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+    display: table;
+    width: 95px;
+}
